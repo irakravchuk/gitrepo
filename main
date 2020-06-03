@@ -1,0 +1,69 @@
+{
+    "_meta": {
+        "schema_version": "v1beta0-8.0.0"
+    },
+    "farm": {
+        "name": "te-a1e1-base-ec2",
+        "description": "",
+        "project": {
+            "id": "30c59dba-fc9b-4d0f-83ec-4b5043b12f72"
+        },
+        "timezone": "Europe\/Moscow",
+        "launchOrder": "simultaneous",
+        "variables": []
+    },
+    "roles": [
+        {
+            "alias": "base-ubuntu1604-devel",
+            "role": {
+                "name": "base-ubuntu1604-devel"
+            },
+            "cloudPlatform": "ec2",
+            "cloudLocation": "us-east-1",
+            "instanceType": {
+                "id": "t2.small"
+            },
+            "launchIndex": 0,
+            "advancedConfiguration": {
+                "disableAgentIptablesManagement": false,
+                "disableAgentNtpManagement": false,
+                "disableAgentHostnameManagement": false,
+                "abortInitializationOnOrchestrationFailure": true,
+                "rebootAfterHostInit": false
+            },
+            "scaling": {
+                "enabled": true,
+                "maxInstances": 2,
+                "minInstances": 1,
+                "rules": []
+            },
+            "networking": {
+                "networks": [
+                    {
+                        "id": "vpc-596aa03e",
+                        "associatePublicIpAddress": true,
+                        "subnets": [
+                            {
+                                "id": "subnet-41b49e24"
+                            }
+                        ]
+                    }
+                ],
+                "subnets": [
+                    {
+                        "id": "subnet-41b49e24"
+                    }
+                ]
+            },
+            "cloudFeatures": {
+                "type": "AwsCloudFeatures",
+                "ebsOptimized": false
+            },
+            "variables": [],
+            "orchestration": {
+                "rules": []
+            },
+            "storage": []
+        }
+    ]
+}
