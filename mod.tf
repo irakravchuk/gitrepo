@@ -1,6 +1,6 @@
-module "ik-modules" {
-	source  = "f00976e17591.test-env.scalr.com/env-svrcnchebt61e30/ik-modules/aws"
-	version = "1.3.1"
+module "tftest" {
+	source  = "2bc4d33c2563.test-env.scalr.com/env-svrcnchebt61e30/tftest/aws"
+	version = "0.0.5"
 
 	# Set 1 required variable below.
 
