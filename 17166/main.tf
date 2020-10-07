@@ -4,6 +4,7 @@ resource "null_resource" "resource1" {
     command = "echo $ENV"
     environment = {
       ENV = "Hello world!"
+      
     }
   }
 }
