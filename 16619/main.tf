@@ -12,7 +12,7 @@ provider "helm" {}
 
 terraform {
   required_providers {
-    aws = "~> 2.8"
+    aws = "~> 2.7"
   }
 }
 terraform {
