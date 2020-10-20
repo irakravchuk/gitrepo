@@ -6,9 +6,9 @@ provider "google-beta" {}
 provider "azurerm" {}
 provider "kubernetes" {}
 provider "helm" {}
-provider "aws" {
-  version = "3.11.0"
-}
+#provider "aws" {
+  #version = "3.11.0"
+#}
 
 terraform {
   required_providers {
