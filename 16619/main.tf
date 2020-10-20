@@ -66,7 +66,7 @@ terraform {
     }
     okta = {
       source  = "oktadeveloper/okta"
-      version = "3.5.2"
+      version = "3.5.0"
     }
     postgresql = {
       source  = "cyrilgdn/postgresql"
