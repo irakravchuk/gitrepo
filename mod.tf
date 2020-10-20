@@ -1,7 +1,6 @@
 module "ik-modules" {
-	source  = "7d2cc57d4733.test-env.scalr.com/acc-svrcncgh453bi8g/ik-modules/aws"
+	source  = "irak.likehosted.scalr.com/acc-t55gcjlfbkm10u0/ik-modules/aws"
 	version = "1.3.1"
-
 	# Set 1 required variable below.
 
 	text_var = "string"
