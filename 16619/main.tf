@@ -12,9 +12,9 @@ provider "aws" {
 
 terraform {
   required_providers {
-    gitlab = {
-      source  = "gitlabhq/gitlab"
-      version = "3.1.0"
+    mycloud = {
+      source  = "mycorp/mycloud"
+      version = "~> 1.0"
     }
-   }
   }
+}
