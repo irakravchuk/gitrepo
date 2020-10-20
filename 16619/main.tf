@@ -1,5 +1,5 @@
 provider "oraclepaas" {
-  version = "1.5.3"
+  version = "1.5.2"
 }
 provider "google" {}
 provider "google-beta" {}
