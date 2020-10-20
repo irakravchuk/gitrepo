@@ -14,5 +14,6 @@ terraform {
   required_providers {
     aws = "~> 2.8"
   }
-  digitalocean = "1.23.0"
+    digitalocean = "1.23.0"
+    rancher2 = "1.10.3"
 }
