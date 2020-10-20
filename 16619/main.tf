@@ -14,4 +14,5 @@ terraform {
   required_providers {
     aws = "~> 2.8"
   }
+  digitalocean = "1.23.0"
 }
