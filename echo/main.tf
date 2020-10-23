@@ -4,4 +4,7 @@ resource "null_resource" "test" {
  }
 }
 
-
+variable "test_var" {
+  type = string
+  default = ""
+  }
