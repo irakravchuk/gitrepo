@@ -3,3 +3,8 @@ resource "null_resource" "test" {
     command = "echo ${var.test_var}"
  }
 }
+
+variable "test_var" {
+  type = string
+  default = ""
+  }
