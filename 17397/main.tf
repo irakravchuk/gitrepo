@@ -1,3 +1,5 @@
+provider "scalr" {}
+
 data "scalr_workspace" "source" {
    name = "test-ws"
    environment_id = "env-svrcnchebt61e30"
