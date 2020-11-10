@@ -1,4 +1,4 @@
-provider "scalr" {}
+
 
 data "scalr_workspace" "source" {
    name = "test-ws"
