@@ -5,5 +5,5 @@ module "ira" {
 }
 variable "text_var" {
  type = string
- default = null
+ default = "null"
 }
