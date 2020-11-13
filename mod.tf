@@ -1,6 +1,6 @@
-module "ira" {
-	source  = "irak.likehosted.scalr.com/env-t69evhm72a44dqo/ira/aws"
-	version = "1.1.2"
+module "ik-modules" {
+	source  = "ee664d738ffb.test-env.scalr.com/env-svrcnchebt61e30/ik-modules/aws"
+	version = "1.3.1"
 	#text_var = "string"
 }
 variable "text_var" {
