@@ -1,6 +1,6 @@
-module "ik-modules" {
-	source  = "ee664d738ffb.test-env.scalr.com/env-svrcnchebt61e30/ik-modules/aws"
-	version = "1.3.1"
+module "tftest" {
+	source  = "905d698d.devel.scalr.com/env-t6guoufp26tnqd8/tftest/aws"
+	version = "0.0.5"
 	#text_var = "string"
 }
 variable "text_var" {
