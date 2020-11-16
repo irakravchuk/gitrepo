@@ -6,7 +6,7 @@ resource "null_resource" "example" {
   }
 }
 
-properties = {
+properties {
   user-id: "%scalr-user-happy-id%",
   email: "%user-email%",
   account-id: "%scalr-account-happy-id%",
