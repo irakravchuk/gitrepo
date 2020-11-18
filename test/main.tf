@@ -6,9 +6,3 @@ resource "null_resource" "example" {
   }
 }
 
-properties {
-  user-id: "%scalr-user-happy-id%",
-  email: "%user-email%",
-  account-id: "%scalr-account-happy-id%",
-  account-name: "%account-name%"
-}
