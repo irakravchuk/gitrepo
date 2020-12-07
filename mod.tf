@@ -1,5 +1,5 @@
 module "ik-modules" {
-	source  = "account0.org0.te.scalr-labs.net/env-t7b7hkqifnvglo8/ik-modules/aws"
+	source  = "3a797a70.devel.scalr.com/env-t7irvs6nvk2b9n0/ik-modules/aws"
 	version = "1.3.1"
 	#text_var = "string"
 }
