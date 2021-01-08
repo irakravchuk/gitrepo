@@ -1,7 +1,7 @@
 resource "null_resource" "test" {
- count = 11
+
  provisioner "local-exec" {
-    command = "echo ${var.test_var}"
+    command = "sleep 120"
  }
 }
 
