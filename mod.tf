@@ -1,6 +1,6 @@
-module "ira-master" {
-	source  = "610daf199735.test-env.scalr.com/env-svrcnchebt61e30/ira-master/aws"
-	version = "1.1.1"
+module "tftest" {
+	source  = "2930a3dc30cf.test-env.scalr.com/env-svrcnchebt61e30/tftest/aws"
+	version = "0.0.5"
 	#text_var = "string"
 }
 variable "text_var" {
