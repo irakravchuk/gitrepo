@@ -1,6 +1,6 @@
-module "ik-modules" {
-	source  = "mainiacp.org8.te.scalr-labs.net/env-svrcnchebt61e30/ik-modules/aws"
-	version = "1.3.1"
+module "ira-master" {
+	source  = "cbb883747b46.test-env.scalr.com/env-svrcnchebt61e30/ira-master/aws"
+	version = "1.1.1"
 
 	#text_var = "string"
 }
