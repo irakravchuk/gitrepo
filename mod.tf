@@ -1,6 +1,6 @@
-module "tftest" {
-	source  = "56caab2fd335.test-env.scalr.com/acc-svrcncgh453bi8g/tftest/aws"
-	version = "0.0.5"
+module "ik-modules" {
+	source  = "mainiacp.org3.te.scalr-labs.net/global/ik-modules/aws"
+	version = "1.3.1"
 
 	#text_var = "string"
 }
