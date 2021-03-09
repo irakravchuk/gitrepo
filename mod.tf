@@ -1,7 +1,6 @@
-module "ik-master" {
-	source  = "scalr-iacp.scalr.io/org-sfuari395m7sck1/ik-master/yandex"
-	version = "0.0.2"
-
+module "ik-modules" {
+	source  = "scalr-iacp.scalr.io/org-sfuari395m7sck1/ik-modules/aws"
+	version = "1.3.1"
 	#text_var = "string"
 }
 variable "text_var" {
