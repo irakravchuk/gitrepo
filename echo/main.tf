@@ -8,3 +8,7 @@ variable "test_var" {
   type = string
   default = ""
   }
+variable "ira" {
+  type = string
+  default = ""
+  }
