@@ -6,7 +6,7 @@ resource "null_resource" "test" {
 
 variable "test_var" {
   type = string
-  default = ""
+  default = "456"
   }
 variable "ira" {
   type = string
