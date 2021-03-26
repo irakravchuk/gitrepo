@@ -49,19 +49,19 @@ resource "aws_instance" "test_instance_my_instance1" {
   subnet_id                   = var.subnet
   associate_public_ip_address = var.associate_public_ip
 
-    tags = merge({ "Name" = format("k.kotov-test -> %s -> %s", substr ("🤔🤷", 0,1), data.aws_ami.ubuntu.name) }, var.tags)
+    tags = merge({ "Name" = format("irak-test -> %s -> %s", substr ("🤔🤷", 0,1), data.aws_ami.ubuntu.name) }, var.tags)
     timeouts {
     create = "10m"
     delete = "15m"
        }
-  #tags = merge({ "Name" = "k.kotov"}, var.tags)
+  #tags = merge({ "Name" = "irak"}, var.tags)
  }
 
 
 resource "aws_ebs_volume" "ebs-volume_for_testing_terraform-AllowFullS3Access" {
   availability_zone = "us-east-1a"
         size = 1
-  tags = merge({ "Name" = "k.kotov"}, var.tags)
+  tags = merge({ "Name" = "irak"}, var.tags)
     }
 
 data "aws_iam_policy_document" "bucket_policy" {
