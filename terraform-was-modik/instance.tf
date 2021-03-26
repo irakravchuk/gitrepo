@@ -9,9 +9,9 @@ module "test" {
 
     terraform {
       backend "remote" {
-        hostname = "mainiacp.org3.te.scalr-labs.net"
+        hostname = "3e68a903bd8c.test-env.scalr.com"
         organization = "env-svrcnchebt61e30"
-        token = "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJqdGkiOiJhdC1zdnN1ZGdtb2twZXVjazgiLCJpc3MiOiJ1c2VyIn0.KCJq5-OpAhhm-k5vehBwI6id5J_9Ko3J9Kone0QbTF8"
+        token = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJ1c2VyIiwianRpIjoiYXQtdGQyaXN1bzhwZTRyam1vIn0._m2vRbrw_YTMHql_1m4n1fpAQeWvf_MI4ZmSXGZN5g4"
 
         workspaces {
           name = "my-workspace-name"
@@ -40,12 +40,12 @@ data "aws_ami" "ubuntu" {
 }
 
 
-resource "aws_instance" "terraform-test-instance-ape22" {
+resource "aws_instance" "terraform-test-instance-irak22" {
   ami             = data.aws_ami.ubuntu.id
   instance_type   = "t2.nano"
 
   tags = {
-    Name = "test-instance-ape"
+    name = "test-instance-irak"
     timestamp = "${timestamp()}"
   }
   subnet_id = var.subnet
@@ -67,7 +67,7 @@ module "ec2_cluster" {
 
 
   tags = {
-    Name = "test-instance-ape"
+    name = "test-instance-irak"
     timestamp = "${timestamp()}"
   }
 }
@@ -132,6 +132,6 @@ variable "tags" {
   default = {
     us-east-1 = "image-1234"
     us-west-2 = "image-4567"
-    test-env-owner = "k.kotov"
+    test-env-owner = "irak"
   }
 }
