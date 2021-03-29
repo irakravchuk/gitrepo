@@ -1,6 +1,6 @@
-module "iktest" {
-	source  = "8f55339ee547.test-env.scalr.com/global/iktest/mod"
-	version = "1.0.2"
+module "modik" {
+	source  = "3e68a903bd8c.test-env.scalr.com/global/modik/was"
+	version = "1.1.6"
 	#text_var = "string"
 }
 variable "text_var" {
