@@ -1,5 +1,5 @@
 module "iktest" {
-	source  = "1de576eea2b2.test-env.scalr.com/env-svrcnchebt61e30/iktest/mod"
+	source  = "4703a5d983cb.test-env.scalr.com/env-svrcnchebt61e30/iktest/mod"
 	version = "1.0.3"
 	#text_var = "string"
 }
