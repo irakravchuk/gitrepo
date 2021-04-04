@@ -1,5 +1,5 @@
 module "ekssubm" {
-	source  = "4703a5d983cb.test-env.scalr.com/env-svrcnchebt61e30/ekssubm/aws"
+	source  = "1de576eea2b2.test-env.scalr.com/global/ekssubm/aws"
 	version = "0.0.6"
 	#text_var = "string"
 }
