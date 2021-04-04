@@ -1,6 +1,6 @@
-module "modik" {
-	source  = "3e68a903bd8c.test-env.scalr.com/global/modik/was"
-	version = "1.1.6"
+module "ekssubm" {
+	source  = "4703a5d983cb.test-env.scalr.com/env-svrcnchebt61e30/ekssubm/aws"
+	version = "0.0.6"
 	#text_var = "string"
 }
 variable "text_var" {
